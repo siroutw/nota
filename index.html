@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importamos fuentes bonitas de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fondo donde se anima la galaxia -->
+    <canvas id="galaxyCanvas"></canvas>
+
+    <!-- Pantalla Inicial -->
+    <div id="startScreen" class="screen active">
+        <h1>Galaxy Love</h1>
+        <div class="icon">💖</div>
+        <p class="subtitle">LOVE</p>
+        <button id="btnIniciar">INICIAR <span class="heart-icon">✉️</span></button>
+    </div>
+
+    <!-- Mensaje 1 (Spiderman y Hello Kitty) -->
+    <div id="modal1" class="modal hidden">
+        <div class="modal-content">
+            <!-- Puedes cambiar este enlace por el GIF exacto que prefieras -->
+            <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Cute GIF" class="gif-img">
+            <h2>Amor de mi Vida</h2>
+            <p>Por tanto tiempo que estamos juntos, más te amo.</p>
+            <button class="btnCerrar">CERRAR ❤️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
