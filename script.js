@@ -195,7 +195,7 @@ class Star {
 }
 
 for (let i = 0; i < 120; i++) particles.push(new Particle());
-for (let i = 0; i < 3500; i++) stars.push(new Star()); 
+for (let i = 0; i < 1500; i++) stars.push(new Star()); 
 
 // 5. DIBUJAR EL CENTRO 
 function drawCenter() {
